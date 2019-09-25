@@ -37,6 +37,7 @@ The library currently contains PyTorch implementations, pre-trained model weight
     main_classes/model
     main_classes/tokenizer
     main_classes/optimizer_schedules
+    main_classes/processors
 
 .. toctree::
     :maxdepth: 2
