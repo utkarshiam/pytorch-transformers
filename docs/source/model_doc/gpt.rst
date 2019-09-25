@@ -34,3 +34,24 @@ OpenAI GPT
 
 .. autoclass:: pytorch_transformers.OpenAIGPTDoubleHeadsModel
     :members:
+
+
+``TFOpenAIGPTModel``
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: pytorch_transformers.TFOpenAIGPTModel
+    :members:
+
+
+``TFOpenAIGPTLMHeadModel``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: pytorch_transformers.TFOpenAIGPTLMHeadModel
+    :members:
+
+
+``TFOpenAIGPTDoubleHeadsModel``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autoclass:: pytorch_transformers.TFOpenAIGPTDoubleHeadsModel
+    :members:
