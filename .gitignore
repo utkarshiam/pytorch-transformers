@@ -8,6 +8,13 @@ __pycache__/
 # C extensions
 *.so
 
+# tests and logs
+tests/fixtures/cached_*_text.txt
+logs/
+lightning_logs/
+lang_code_data/
+reports/
+
 # Distribution / packaging
 .Python
 build/
@@ -91,6 +98,7 @@ celerybeat-schedule
 # Environments
 .env
 .venv
+.venv*
 env/
 venv/
 ENV/
@@ -116,19 +124,55 @@ dmypy.json
 .pyre/
 
 # vscode
+.vs
 .vscode
+
+# Pycharm
+.idea
 
 # TF code
 tensorflow_code
 
 # Models
-models
 proc_data
 
 # examples
 runs
-examples/runs
+/runs_old
+/wandb
+/examples/runs
+/examples/**/*.args
+/examples/rag/sweep
 
 # data
 /data
 serialization_dir
+
+# emacs
+*.*~
+debug.env
+
+# vim
+.*.swp
+
+#ctags
+tags
+
+# pre-commit
+.pre-commit*
+
+# .lock
+*.lock
+
+# DS_Store (MacOS)
+.DS_Store
+
+# ruff
+.ruff_cache
+
+# modular conversion
+*.modular_backup
+
+# Cursor IDE files
+.cursor/
+test-results/
